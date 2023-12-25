@@ -22,7 +22,6 @@ function getRectangleArea(width, height) {
   return width * height;
 }
 
-
 /**
  * Returns a circumference of circle given by radius.
  *
@@ -34,10 +33,10 @@ function getRectangleArea(width, height) {
  *   3.14 => 19.729201864543903
  *   0    => 0
  */
-function getCircleCircumference(radius) {
-  return 2 * 3.14 * radius;
+function getCircleCircumference(/* radius */) {
+  throw new Error('Not implemented');
+  // return 2 * 3.14 * radius;
 }
-
 
 /**
  * Returns an average of two given numbers.
@@ -51,10 +50,10 @@ function getCircleCircumference(radius) {
  *  10, 0  => 5
  *  -3, 3  => 0
  */
-function getAverage(value1, value2) {
-  return (value1 + value2) / 2;
+function getAverage(/* value1, value2 */) {
+  throw new Error('Not implemented');
+  // return (value1 + value2) / 2;
 }
-
 
 /**
  * Returns a distance between two points by cartesian coordinates.
